@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>javascript</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <body>
+            <a id="link" href="https://www.w3schools.com">w3schools</a>
+            <P id="para">W3Schools is a freemium educational website for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering all aspects of web development. W3Schools also publishes free HTML templates.</P>
+            <br>
+            <button class="hide" onclick="hide();"><strong>HIDE</strong></button>
+            <button class="show" onclick="show();"><strong>SHOW</strong></button>
+            <br>
+            <br>
+            <br>
+            <button class="on" onclick="document.getElementsByTagName('img')[0].src = 'images/pic_bulbon.gif'"><b>ON</b></button>
+            <img src="images/pic_bulboff.gif" alt="bulb off">
+            <button class="off" onclick="document.getElementsByTagName('img')[0].src = 'images/pic_bulboff.gif'"><b>OFF</b></button>
+            <br>
+            <br>
+           <button id="on" onclick="bulb_on()"><i>ON</i></button>
+           <img id="bulb" src="images/pic_bulboff.gif">
+            <button id="off" onclick="bulb_off()"><i>OFF</i></button>
+            <script type="text/javascript" src="js/sprict.js"></script>
+        </body>
     </head>
-    <body>
-        <p> </p>
-       <script type="text/javascript" src="js/script.js"></script>
-    </body>
-
 </html>
